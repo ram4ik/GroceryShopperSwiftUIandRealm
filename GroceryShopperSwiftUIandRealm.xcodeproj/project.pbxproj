@@ -20,6 +20,8 @@
 		9589BC92258AB4A300A7AE80 /* ShoppingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589BC91258AB4A300A7AE80 /* ShoppingStore.swift */; };
 		9589BC96258B3BAD00A7AE80 /* ShoppingForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589BC95258B3BAD00A7AE80 /* ShoppingForm.swift */; };
 		9589BC9B258B3CB000A7AE80 /* ShoppingFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589BC9A258B3CB000A7AE80 /* ShoppingFormView.swift */; };
+		9589BC9E258B60B700A7AE80 /* ShoppingItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589BC9D258B60B700A7AE80 /* ShoppingItemRow.swift */; };
+		9589BCA1258B62FC00A7AE80 /* ShoppingItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589BCA0258B62FC00A7AE80 /* ShoppingItemListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		9589BC91258AB4A300A7AE80 /* ShoppingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingStore.swift; sourceTree = "<group>"; };
 		9589BC95258B3BAD00A7AE80 /* ShoppingForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingForm.swift; sourceTree = "<group>"; };
 		9589BC9A258B3CB000A7AE80 /* ShoppingFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingFormView.swift; sourceTree = "<group>"; };
+		9589BC9D258B60B700A7AE80 /* ShoppingItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemRow.swift; sourceTree = "<group>"; };
+		9589BCA0258B62FC00A7AE80 /* ShoppingItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				9589BC9A258B3CB000A7AE80 /* ShoppingFormView.swift */,
+				9589BC9D258B60B700A7AE80 /* ShoppingItemRow.swift */,
+				9589BCA0258B62FC00A7AE80 /* ShoppingItemListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +209,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9589BC8F258AB3B500A7AE80 /* ShoppingItem.swift in Sources */,
+				9589BC9E258B60B700A7AE80 /* ShoppingItemRow.swift in Sources */,
+				9589BCA1258B62FC00A7AE80 /* ShoppingItemListView.swift in Sources */,
 				9589BC96258B3BAD00A7AE80 /* ShoppingForm.swift in Sources */,
 				9589BC89258AB15100A7AE80 /* ShoppingItemDB.swift in Sources */,
 				9589BC84258AB0C100A7AE80 /* RealmPersistence.swift in Sources */,
