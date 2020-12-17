@@ -12,6 +12,7 @@ struct GroceryShopperSwiftUIandRealmApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(ShoppingStore(realm: RealmPersistence.initializer()))
         }
     }
 }
